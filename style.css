@@ -3,3 +3,45 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+body {
+  background-image: url(/images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+}
+
+.main {
+  margin: 50px 70px 30px 70px;
+}
+
+.top {
+  font-family: 'Poppins';
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.mid {
+  display: flex;
+  font-family: 'Poppins';
+  color: white;
+  gap: 50px;
+  
+
+}
+
+.mid h1{
+  font-size: 2.2rem;
+}
+
+.mid p {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+button {
+  padding: 15px 50px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 30px;
+}
