@@ -1,0 +1,31 @@
+@media screen and (max-width: 730px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url(/images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+  }
+  
+  .top {
+    margin-bottom: 70px;
+  }
+
+  .mid {
+    flex-direction: column;
+    margin-bottom: 70px;
+    text-align: center;
+
+      .innermid {
+        margin-top: 50px;
+      }
+  }
+
+  .bottom {
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+}
