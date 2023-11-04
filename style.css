@@ -10,14 +10,21 @@ body {
 }
 
 .main {
-  margin: 50px 70px 30px 70px;
+  margin: 40px 70px 30px 70px;
 }
 
 .top {
+  display: flex;
+  align-items: center;
   font-family: 'Poppins';
   color: white;
   font-weight: 600;
   font-size: 30px;
+  gap: 10px;
+}
+
+.top svg {
+  fill: white;
 }
 
 .mid {
@@ -40,8 +47,31 @@ body {
 }
 
 button {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  color: hsl(257, 40%, 49%);
   padding: 15px 50px;
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
   margin-top: 30px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px hsl(256, 36%, 36%);
+}
+
+button:active {
+  font-family: 'Open Sans';
+  color: white;
+  background-color: hsl(300, 69%, 71%);
+}
+
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottom svg {
+  width: 25px;
+  fill: white;
 }
